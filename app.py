@@ -8,7 +8,7 @@ from telegram.ext.commandhandler import CommandHandler
 from telegram.ext.messagehandler import MessageHandler
 from telegram.ext import ConversationHandler,CallbackQueryHandler
 from telegram.ext.filters import Filters
-API_KEY = "6202839270:AAE3bvVPSIVsfUzSgCRO-HRhJwSb7vgsPsU"
+API_KEY = ""
 updater =Updater(API_KEY,use_context=True)
 app = Flask(__name__)
 
